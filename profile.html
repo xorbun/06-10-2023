@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+  <body class="p-3 mb-2 text-black-50"> 
+    <header><!-- inizio navbar -->
+        <nav class="navbar navbar-expand-md navbar-expand-lg navbar navbar-dark bg-dark text-white mb-5">
+            <div class="container-fluid">
+                <img src="assets/netflix_logo.png" alt="logo" width="70" height="34">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">TV show</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Movies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Recently Added</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">My list</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                  </li>
+                </ul>
+                <i class="bi bi-search m-2"></i>
+                <span>KIDS</span>
+                <i class="bi bi-bell m-2"></i>
+                <!-- cliccando sull icona si raggiunge form.html -->
+                <a href="form.html"><img src="assets/avatar.png" alt="" width="34" height="34"></a>
+              </div>
+            </div>
+          </nav>
+        <!-- fine navbar --></header>
+    <main>
+        <!-- inizio form -->
+        <div class="container gx-5 mt-5 ">
+            <!-- riga 1 -->
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-black">Account</h1>
+                    <hr>
+                </div>
+            </div>
+            <!-- fine riga 1 -->
+            <!-- riga 2 -->
+            <div class="row row-cols-1 row-cols-lg-3 border-bottom mt-2">
+                <div class="col">
+                    <p>MEMBERSHIP & BILLING</p>
+                    <button type="button" class="btn btn-secondary btn-sm bg-secondary-subtle text-black border border-white rounded-0">Cancel Membership</button>
+                </div>
+                <div class="col flex-grow-1">
+                    <div class=" border-bottom d-flex justify-content-between">
+                        <div class="d-flex flex-column">
+                            <p class="mb-0 text-black">student@strive.school</p>
+                            <p class="mb-0">Password: ********</p>
+                            <p class="mb-0">Phone:321 0441279</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Change account mail</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Change password</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Change phone number</a>
+                        </div>
+                    </div>
+                    <div class=" border-bottom d-flex justify-content-between">
+                        <div class="d-flex flex-column">
+                            <i class="bi bi-paypal mt-3 text-black">Paypal admin@strive.school</i>
+                        </div>
+                        <div class="d-flex flex-column mt-2 mb-2">
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Update payment info</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Billing details</a>
+                           
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-column">
+                        </div>
+                        <div class="d-flex flex-column">
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Redeem gift card or promo code</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Where to buy gift cards</a>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <!-- fine riga 2 -->
+            <!-- riga 3 -->
+            <div class="row row-cols-1 row-cols-lg-3 border-bottom mt-2">
+                <div class="col">
+                    <p>PLAN DETAILS</p>
+                </div>
+                <div class="col flex-grow-1">
+                    <div class="  d-flex justify-content-between">
+                        <div class="d-flex flex-column">
+                            <span class="text-black">Premium <i class="bi bi-badge-hd"></i></span>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Change plans</a>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <!-- fine riga 3 -->
+            <!-- riga 4 -->
+            <div class="row row-cols-1 row-cols-lg-3 border-bottom mt-2">
+                <div class="col">
+                    <p>SETTINGS</p>
+                </div>
+                <div class="col-6 flex-grow-1">
+                    <div class="  d-flex justify-content-between">
+                        <div class="d-flex flex-column">
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Parental controls</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Test participation</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Manage download devices</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Activatr a device</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Recent device streaming activity</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Sign out of all devices</a>
+                        </div>
+                        <div class="d-flex flex-column">
+                            
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <!-- fine riga 4 -->
+            <!-- riga 5 -->
+            <div class="row row-cols-1 row-cols-lg-3 mt-2">
+                <div class="col">
+                    <p>MY PROFILE</p>
+                </div>
+                <div class="col flex-grow-1">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-column">
+                            <p class="text-black"><img src="assets/avatar.png" alt="" width="34" height="34"> Strive student</p>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Language</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Playback settings</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Subtitles appearance</a>
+                        </div>
+                        <div class="d-flex flex-column">
+                           <br><br>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Viewing activity</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Ratings</a>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Manage profile</a>
+                            <a class="mb-0 text-nowrap justify-self-end link-offset-2 link-underline link-underline-opacity-0" href="#">Add profile email</a>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <!-- fine riga 5 -->
+         </div>
+        <!-- fine container -->
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
